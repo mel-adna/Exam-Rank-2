@@ -1,5 +1,3 @@
-#include <stdio.h>
-
 char    *ft_strrev(char *str)
 {
     int j, i = 0;
@@ -18,13 +16,4 @@ char    *ft_strrev(char *str)
         j++;
     }
     return (str);
-}
-
-int main()
-{
-    char str[] = "hello";
-
-    printf("%s\n", ft_strrev(str));
-
-    return 0;
 }
